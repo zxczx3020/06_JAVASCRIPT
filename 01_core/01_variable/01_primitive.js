@@ -57,3 +57,38 @@ let lastName= "민주";
 
 console.log("안녕하세요 " + firstName + lastName + "입니다. ");  // 기존 방식
 console.log(`안녕하세요 ${firstName}${lastName} 입니다.`);
+
+//------------------------------
+
+// 불리언 타입
+// true false
+
+let flag = true;
+console.log(flag);
+
+flag = false;
+console.log(flag);
+
+// -----------------------------
+
+/*
+    undefined 타입
+    let 키워드로 선언한 변수는 암묵적으로 undefined 로 초기화 된다.
+    변수를 선언한 이후에 값을 할당하지 않은 변수를 참조하면 undefined가 반환된다.
+    undefined 는 자바스크립트 엔진이 변수를 초기화 할 때 사용하는 값이고,
+    개발자가 의도적으로 할당하는 것은 본래 취지와 어긋나고 혼란을 줄 수 있다.
+    그렇기 떄문에 의도적인 빈 값은 null을 주는 것이 바람직하다.
+*/ 
+let test;
+console.log(test);
+
+// const test2;  const는 상수 이기 때문에 undefined로 초기화 할 수 없다.
+
+/*
+    null 타입
+    변수에 값이 없다는 것을 의도적으로 명시할 때 사용한다.
+*/
+
+let nullType = "something";
+nullType = null;
+console.log(nullType);
