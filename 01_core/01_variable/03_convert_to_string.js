@@ -22,7 +22,3 @@ console.log([] +'');
 console.log(function(){}+'');
 
 console.log(typeof (true+''));
-
-let string = 1+'';
-
-console.log(typeof string);

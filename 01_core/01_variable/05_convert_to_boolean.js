@@ -17,3 +17,6 @@ if(null) console.log("if(null)");
 if(undefined) console.log("if(undefined");
 if(0) console.log("if(0)");
 if(NaN) console.log("if(NaN)");
+
+// false, undefined, null, 0, NaN, '' 은 falsy 값이며
+// 그 외의 값들은 truthy
