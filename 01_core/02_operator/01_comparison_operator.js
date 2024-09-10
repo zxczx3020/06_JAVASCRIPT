@@ -33,3 +33,13 @@ console.log(`null === undifined : ${null === undefined}`);
 // NaN 는 자신과 일치하지 않는 유일한 값이다.
 console.log(`NaN == NaN : ${NaN == NaN}`);
 console.log(`NaN === NaN : ${NaN === NaN}`);
+
+console.log(`Number.isNaN(NaN) : ${Number.isNaN(NaN)}`);
+
+// 문자열끼리도 비교가 가능하다.
+console.log(`hello === hello : ${'hello' === 'hello'}`);
+console.log(`hello !== hello : ${'hello' !== 'hello'}`);
+
+// 대소 비교
+console.log(`apple < banana : ${'apple' < 'banana'}`);
+console.log(`cat < Zoo ${'cat' < 'Zoo'}`);
