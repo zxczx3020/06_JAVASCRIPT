@@ -10,12 +10,11 @@ let obj = null;
 let val = obj?.value;
 console.log(val);
 
-//옵셔널 체이닝 이전에니는 논리연산자 && 를 사용한 단축 평가로 확인을 했다.
+//옵셔널 체이닝 이전에는 논리연산자 && 를 사용한 단축 평가로 확인을 했다.
 // 단, 빈 문자열과 같은 Falsy 값을 false 취급해서 생기는 문제가 있다.
 let str ='';
 
 let len = str && str.length;
-console.log(len);
 
 let len2 = str?.length;
 console.log(len2);
