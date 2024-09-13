@@ -27,7 +27,7 @@ console.log(message());
 message = (val1,val2) => "Arrow " + val1 + val2;
 console.log(message("Function", "!"));
 
-
+ 
 // 매개변수가 하나면 소괄호 생략 가능
 message = val => "Arrow " + val;
 console.log(message("Function!!"));
